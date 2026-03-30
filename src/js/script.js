@@ -11,21 +11,20 @@ if(true){
     console.log(apelido);
 }
 
-let tavaJuros=0.05;
-console.log(taxaJuros); 
-// taxaJuros=1.5
+const tavajuros=0.05;
+console.log(taxajuros); 
 
 var exemplo="ola-dev-var";
 console.log( typeof exemplo)
 
-let exemplo="ola-dev-var";
-console.log(exemplo1)="ola-dev-let";
+let exemplo2="ola-dev-var";
+console.log(exemplo2)="ola-dev-let";
 
-const exemplo="ola-dev-const";
-console.log(exemplo2)="ola-dev-const";
+const exemplo3="ola-dev-const";
+console.log(exemplo3)="ola-dev-const";
 
-let exemplo3=10;
-console.log(exemplo3)
+let exemplo4=10;
+console.log(exemplo4)
 
 let exemplo4=true; 
 console.log(exemplo4);
@@ -45,3 +44,25 @@ console.log(exemplo7)
 //valor vazio
 let exemplo8 =null;
 console.log(exemplo8)
+
+// OPERADORES ARITIMETICOS
+
+const valor1=10;
+const valor2=20;
+
+console.log( valor1 + valor2);
+console.log( valor1 - valor2);
+console.log( valor1 * valor2);
+console.log( valor1 / valor2);
+
+//OPERADORES LOGICOS 
+// = atribuições 
+// == comparação 
+// === valor e tiopo(estritante igual)
+// && = E (todas condições tem que ser verdadeiras)
+// || = ou (uma das condições tem que ser verdadeiras)
+
+console.log(valor1 < valor2);
+console.log( valor1 > 10 && valor2 < 10 );
+console.log( valor2 > 100 || valor1 < 10 );
+console.log( valor1 > 10 ==valor2);
