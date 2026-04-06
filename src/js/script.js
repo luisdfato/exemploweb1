@@ -125,6 +125,51 @@ let resultado = valor ==100 ? "Valor certo": "Valor errado";
 console.log(resultado)
 
 let usuario="dev";
-let logado= usuario =="dev" ? "usuario logado": "usuario invalido";
+let logado= usuario =="fiap" ? "usuario logado": "usuario invalido";
 console.log(logado)
     
+
+// estrutura de repetição 
+
+// o laço de repetição é utilizando quando 
+// sabemos quantas vezes o codigo vai ser executado 
+
+for( let i=1; i<=5;i++){
+    console.log("valor" ,i);
+}
+
+const linguagens= ["Java","python","C#"];
+
+for(let i=0; i <linguagens.length;i++){
+    console.log("linguagem", i, ":", linguagens[i])
+}
+
+const tecnologias =["JS","HTML","CSS"];
+
+for (let tec of tecnologias){   
+    console.log("Estudando:", tec)
+}
+
+//for com objeto
+const carros= {marca: "volsk", modelo:"fusca", ano:1980};
+
+for( let dados in carros){ 
+    console.log(dados, ":", carros[dados])
+}
+
+//while - usamos quando não sabemos a quantidade de vezes 
+
+let numero = 1 
+
+while (numero <=10){
+     console.log("contagem", nuemro);
+     numero++;
+    
+}
+
+//declarando um variavel indenfinida
+let num;
+while (num !== "0"){
+    num = prompt("digitando um numero ou 0 para sair ")
+    console.log("voce digitou" , num)
+}
