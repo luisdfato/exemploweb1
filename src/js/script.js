@@ -162,7 +162,7 @@ for( let dados in carros){
 let numero = 1 
 
 while (numero <=10){
-     console.log("contagem", nuemro);
+     console.log("contagem",numero);
      numero++;
     
 }
